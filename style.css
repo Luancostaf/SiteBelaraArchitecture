@@ -1,0 +1,336 @@
+*{margin:0;
+    box-sizing: border-box;}
+    
+    body {background-color: #0b0016;
+    font-family: "Questrial", sans-serif;
+    overflow-x: hidden;}
+    
+    #pag1{ background-image: url(fundo.jpg) ;
+    background-color: rgba(0, 0, 0, 45%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 110vh;}
+    
+    .logo{margin-left:9%;
+    margin-top: 4.5vh;
+    vertical-align: middle;
+    margin-bottom: 6vh ;}
+    
+    .tel{ color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 50%;}
+    
+    .buttonQuate{ 
+        background: #D6A04C;
+        border: 1px solid #D6A04C;
+        color: #fff ;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 14px 24px;
+        line-height: 15px;
+        border-radius: 0px;
+        position: relative;
+        left: 2%;
+        text-decoration: none;
+    
+    
+        
+    }
+    
+    #icon_barras {display: inline-block;
+    width: 60px;
+    margin-left: 5%;
+    
+    
+    
+    
+    }
+    
+    
+    #icon_barras span{border: solid 1px white;
+    display: inline-block;
+    width: 40px;
+    margin: auto;
+    
+    
+    }
+    
+    .buttonQuate{
+        background: #D6A04C;
+        width: 300px;
+        height: 150px;
+        transition: all 0.3s ease;
+      }
+      .buttonQuate:hover {
+        
+        background: transparent;
+        color: #D6A04C;
+        border-color: #D6A04C;
+      }
+    
+      .text1{
+        margin-top: auto ; 
+        padding-top: 12%;
+        padding-left: 16%;
+        color: #E9E3D9;
+        font-size: 14.8px;
+       
+      }
+    .World{
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 0px;
+      display: block;
+      line-height: 1.3;
+      padding-top: 13%;
+        padding-left: 60% ;
+    }
+      .text2{
+        margin-top: auto ;
+        
+        padding-top: 1%;
+        padding-left: 16%;
+        font-size: 60px;
+        font-weight: 400;
+        color: #fff;
+        line-height: 1.2;
+    
+        font-family: "Cabin", sans-serif;
+       
+        
+      }
+    
+     .btn_reel{
+      position: absolute;
+      top: 49vh;
+      background: #fff;
+      width: 70px;
+      height: 70px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 50%;
+      border: 2px solid #D6A04C;
+      left: 76.7%;
+      text-align: center;
+      box-shadow: 0 0 0 25px rgba(255, 255, 255, 0.1);
+      transition: all 0.6s ease;
+      fill:#D6A04C
+     }
+     .btn_reel svg {
+      position: relative;
+      top: 2.5vh;
+      left: 3%;
+     }
+     .btn_reel:hover {
+      background: #D6A04C;
+      fill: #fff;
+     }
+    
+    .retangulo {
+      width: 100px;       
+      height: 50px;      
+      background-color: #D6A04C; 
+      padding-top: 2%;
+      padding-left: 2%;
+     
+      position: absolute;
+      width: 50%;
+      right: 0;
+      
+      top: 96%;
+      width: 60%;
+      height: 14%;
+    }
+    
+    .text3{
+      color: rgba(255, 255, 255, 0.8);
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0px;
+        
+        line-height: 1.3;
+        padding-top: 15%;
+      
+        font-family: "Questrial", sans-serif;
+    }
+    
+    .text4{
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 0px;
+      
+      line-height: 1.3;
+      padding-top: 10%;
+      padding-left: 0%;
+      font-family: "Questrial", sans-serif;
+    }
+    
+    
+    .about{
+      color: #fff;
+        font-family: "Cabin", sans-serif;
+        font-size: 50px;
+        display: block;
+        font-weight: 400;
+        line-height: 1.3;
+        margin-bottom: 21px;
+        padding-left: 8.5%;
+        padding-top: 5%;
+    }
+    
+    .belara{
+      color: #E9E3D9;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-left: 15%;
+        padding-top: 2.3%;
+    }
+    
+    .studio{
+      color: #E9E3D9;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 1.5;
+      font-family: "Questrial", sans-serif;
+      padding-left: 50%;
+      position: absolute;
+      top: 136%;
+    }
+    
+    .img1{
+      display: inline-block;
+      margin-top: 3%;
+      padding-left: 15%;
+    }
+    
+    
+    .learnmore{ 
+      background: transparent;
+      background: #D6A04C;
+      border: 1px solid #D6A04C;
+      color: #fff ;
+      font-size: 16px;
+      font-weight: 400;
+      padding: 14px 24px;
+      cursor: pointer;
+      border-radius: 0px;
+      
+      
+      text-decoration: none;
+      background: transparent;
+      
+      transition: all 0.3s ease;
+    
+      
+    }
+    
+    .learnmore:hover {
+      
+      
+      color: #D6A04C;
+      border-color: #D6A04C;
+      
+      
+    }
+    
+    .img2{
+      display: inline-block;
+    margin-left: 8%;
+    }
+    .img2 img { margin-top: 60px;}
+    
+    .WhatWeDo{
+      font-size: 44px;
+      display: block;
+      font-weight: 400;
+      line-height: 1.3;
+      margin-bottom: 21px;
+      color: #fff;
+      margin-left: 8%;
+      margin-top: 7%;
+    }
+    
+    .projetos {
+      display: flex;
+      gap: 3rem;
+      margin: 3rem auto;
+      padding: 3rem 4rem;
+      flex-wrap: wrap;
+      margin-top: auto;
+      padding-top: 1%;
+      padding-left: 8.5%;
+    }
+    
+    .card img {
+      transition: transform 0.4s ease;
+      display: block;
+      max-width: 100%;
+      object-fit: cover;
+      transition: 0.3s ease;
+      display: block;
+    }
+    
+    .projetos img {
+      width: 105%;
+      height: 350px;
+    }
+    
+    
+    .card h3 {
+      font-size: 2rem;
+      font-weight: 500;
+      margin: 1.5rem 0 .4rem;
+      color: #fff;
+    }
+    
+    .card span {
+      font-size: 0.9rem;
+      letter-spacing: .05em;
+      color: #fff;
+    }
+    
+    .botao-seta {
+      background-color: white;
+      color: black;
+      font-size: 24px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.3s ease;
+      opacity: 0;
+      z-index: 999;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    
+    .card:hover {
+      transition: transform 0.5s ease;
+      transform: translateY(20px);
+    }
+    
+    .card:hover img {
+      filter: grayscale(30%) brightness(90%);
+    }
+    
+    .card:hover h3 {
+      color: #D6A04C;
+    }
+    
+    .card:hover .botao-seta {
+      opacity: 1;
+    }
+    
+    
+    
+    
+    
